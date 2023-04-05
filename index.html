@@ -1,0 +1,89 @@
+<html>
+		
+<head>
+		<meta charset="utf-8">
+		<title>Alaff & Xibe</title>
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+		
+
+		
+<body>
+<div id="geral">		
+			
+			
+<div id="menu">
+	<ul>
+		<li><a href="index.html"><img src="home.png" width="26"></a>
+		<li><a href="jogos.html">Jogos</a>
+		<li><a href="contato.html">Contato</a>
+	
+		<div id="logo"><img src="logo.png"></div>
+	
+	</ul>	
+</div>
+			
+			
+<div id="banner"></div>
+			
+			
+<!-- ### AREA DE LOGIN ### -->
+
+<div id="conteudo">
+	
+<form class="form-signin" method="POST" action="valida.php">
+	
+	<form class="form-signin" method="POST" action="valida.php">
+        <font color="#FF8C00"><h2 class="form-signin-heading">Iniciar Sessão</h2></font>
+        <label for="inputEmail" class="sr-only">Email</label><br>
+        <input type="email" name="email" id="inputEmail" class="form-control" required autofocus><br><br>
+        <label for="inputPassword" class="sr-only">Senha</label><br>
+        <input type="password" name="senha" id="inputPassword" class="form-control" required><br><br>
+        <button class="btn btn-lg btn-danger btn-block" type="submit">Iniciar</button>
+      </form>
+
+ <p class="text-center text-danger">
+			<?php if(isset($_SESSION['loginErro'])){
+				echo $_SESSION['loginErro'];
+				unset($_SESSION['loginErro']);
+			}?>
+		</p>
+		
+<p class="text-center text-success">
+			<?php 
+			if(isset($_SESSION['logindeslogado'])){
+				echo $_SESSION['logindeslogado'];
+				unset($_SESSION['logindeslogado']);
+			}
+			?>
+		</p>
+
+</div>
+
+<div id="conteudo2">
+<font color="#FF8C00"><h2>Criar</h2></font>
+uma nova conta
+<br><br><br>
+<input type="button" value="Cadastrar">
+</div>
+
+<!-- ### FIM DA AREA RESTRITA ### --> 
+			
+			
+<div id="rodape1">
+	<center>
+		<a href="https://www.facebook.com"><img src="facebook.png"></a>
+		<a href="https://www.youtube.com"><img src="youtube.png"></a>
+		<a href="https://www.twitter.com"><img src="twitter.png"></a><br>
+		<img src="pag.png">
+	</center>
+</div>
+			
+			
+<div id="rodape2">
+© 2017 Steam IFAP Corporation. Todos os direitos reservados. Todas as marcas são propriedade dos seus respectivos donos, Alaff e Rodrigo.
+</div>
+			
+			
+</div>
+</body>

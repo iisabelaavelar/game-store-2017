@@ -1,0 +1,208 @@
+body {
+	background-image: url(fundo.png);
+	background-attachment: fixed;
+	margin: 0%;
+	padding: 0;
+	border: none;
+}
+
+#geral {
+	font-family: Segoe UI Light;
+	width: 900;
+	margin: 0 auto;
+	}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}	
+
+#menu ul{
+	padding: 0px;
+	margin: 0 auto;
+	float: left;
+	width: 100%;
+	height: 80;
+	background-color: #363636;
+	list-style: none;
+		
+}
+
+#menu ul li a{
+	text-decoration: none;
+	padding: 22px 20px;
+	float: left;
+	font-size: 20;
+	color: #FF8C00;
+}
+
+#menu img {
+	padding: 3px;
+}
+
+#logo {
+	float: right;
+	padding-top: 5;
+	padding-right: 15;
+	}
+
+#logo img {
+	padding: 0px;
+}	
+	
+#banner {
+	background-image: url(banner.jpg);
+	width: 100%;
+	height: 400;
+}
+
+#banner2 {
+	background-image: url(banner2.jpg);
+	width: 100%;
+	height: 400;
+}
+
+#banner4 {
+	background-image: url(banner4.jpg);
+	width: 100%;
+	height: 400;
+}
+
+#conteudo {
+	margin-top: 25;
+	padding-top: 5;
+	padding-left: 20;
+	float: left;
+	width:421;
+	height: 300;
+	background-color: #363636;
+	color: #B5B5B5;
+}
+
+#conteudo2 {
+	margin-top: 25;
+	padding-top: 5;
+	padding-left: 20;
+	float: right;
+	width:421;
+	height: 300;
+	background-color: #363636;
+	color: #B5B5B5;
+}
+
+#conteudo3 {
+	padding-top: 5;
+	float: left;
+	width:900;
+	height: 900;
+	background-color: #363636;
+	color: #B5B5B5;
+}
+
+#conteudo4 {
+	margin-top: 25;
+	padding-top: 0;
+	padding-left: 30;
+	float: left;
+	width:400;
+	height: 357;
+	background-color: #363636;
+	color: #B5B5B5;
+}
+
+#conteudo5 {
+	margin-top: 25;
+	padding-top: 0;
+	padding-left: 0;
+	float: right;
+	width:400;
+	height: 320;
+	background-color: #363636;
+	color: #B5B5B5;
+	line-height:35px;
+}
+
+table#tabela tr td { /* Toda a tabela com fundo creme */
+	background: #4F4F4F;
+	color: white;
+	border: none;
+} 
+
+#titulo {
+	padding-top: 10;
+	float: left;
+	text-align: center;
+	width: 100%;
+	height: 40;
+	background: #FF8C00;
+	color: black;
+	font-size: 20;
+}
+
+#produtos {
+	padding-top: 55;
+	width: 900;
+	height: 680;
+	background: #363636;
+	color: white;
+	text-align: center;
+}
+
+#prod {
+	padding-top: 15;
+	width:300px;
+	height:320px;
+	float: left;
+}
+
+#contato {
+	padding-top: 55;
+	width: 900;
+	height: 680;
+	background: #363636;
+	color: white;
+
+
+}
+
+#rodape1 {
+	margin-top: 355;
+	width: 900;
+	height: 155;
+	background-color: #1C1C1C;
+}
+
+#rodape3 {
+	margin-top: 35;
+	width: 900;
+	height: 155;
+	background-color: #1C1C1C;
+}
+
+#rodape4 {
+	margin-top: 455;
+	width: 900;
+	height: 155;
+	background-color: #1C1C1C;
+}
+
+#rodape1 img {
+	padding: 12px 5px;
+}
+
+#rodape3 img {
+	padding: 12px 5px;
+}
+
+#rodape4 img {
+	padding: 12px 5px;
+}
+
+#rodape2 {
+	width: 900;
+	height: 70;
+	background-color: #363636;
+	color: white;
+	text-align: center;
+	padding-top: 15;
+}
